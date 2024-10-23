@@ -2,7 +2,7 @@ from pyrfc import Connection
 
 # Conexión a SAP
 sap_conn_params = {
-    'ashost': '192.168.0.9',
+    'ashost': '192.168.0.6',
     'sysnr': '00',
     'client': '300',
     'user': 'ETL_SAP',
@@ -14,11 +14,11 @@ try:
     print('Conexión exitosa')
 
     # Obtener la información de los campos de la tabla RSEG
-    result = conn.call('DDIF_FIELDINFO_GET', TABNAME='T161T')
+    result = conn.call('DDIF_FIELDINFO_GET', TABNAME='EKPO')
 
     # Imprimir la lista de campos válidos
     fields = [field['FIELDNAME'] for field in result['DFIES_TAB']]
-    print("Campos válidos en T161T:")
+    print("Campos válidos en EKPO:")
     print(fields)
 
 except Exception as e:

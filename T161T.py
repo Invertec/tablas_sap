@@ -1,47 +1,91 @@
+import os
 from pyrfc import Connection
 from sqlalchemy import create_engine
 import pandas as pd
+from dotenv import load_dotenv
 
-# Configuración de la conexión a SAP
-sap_conn = Connection(user='wcorrea', passwd='Invertec.22$', ashost='192.168.0.6', sysnr='00', client='300')
+# Cargar variables de entorno desde un archivo .env
+load_dotenv()
 
-# Campos que deseas leer de la tabla T161T
-fields = ['MANDT', 'SPRAS', 'BSART', 'BSTYP', 'BATXT']
+# Función para conectar a SAP
+def sap_connect():
+    try:
+        conn = Connection(
+            user=os.getenv('SAP_USER'),
+            passwd=os.getenv('SAP_PASSWORD'),
+            ashost=os.getenv('SAP_HOST'),
+            sysnr=os.getenv('SAP_SYSNR'),
+            client=os.getenv('SAP_CLIENT')
+        )
+        print("Conexión a SAP exitosa.")
+        return conn
+    except Exception as e:
+        print(f"Error conectando a SAP: {e}")
+        return None
 
-# Llamada a la función RFC para la tabla T161T
-result = sap_conn.call('RFC_READ_TABLE',
-                        QUERY_TABLE='T161T',
-                        DELIMITER='|',
-                        FIELDS=[{'FIELDNAME': field} for field in fields])
+# Función para leer datos de SAP
+def read_sap_table(sap_conn, table_name, fields, delimiter='|'):
+    try:
+        result = sap_conn.call('RFC_READ_TABLE',
+                               QUERY_TABLE=table_name,
+                               DELIMITER=delimiter,
+                               FIELDS=[{'FIELDNAME': field} for field in fields])
+        data = result['DATA']
+        rows = [row['WA'].split(delimiter) for row in data]
+        rows = [row for row in rows if len(row) == len(fields)]
+        df = pd.DataFrame(rows, columns=fields)
+        print(f"Datos leídos de la tabla {table_name} con éxito.")
+        return df
+    except Exception as e:
+        print(f"Error leyendo la tabla {table_name} en SAP: {e}")
+        return None
 
-# Procesar los resultados
-data = result['DATA']
+# Función para conectar a SQL Server
+def sql_server_connect():
+    try:
+        conn_str = (f"mssql+pyodbc://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD')}@"
+                    f"{os.getenv('DB_SERVER')}/{os.getenv('DB_NAME')}?"
+                    "driver=ODBC+Driver+18+for+SQL+Server&TrustServerCertificate=yes")
+        engine = create_engine(conn_str)
+        print("Conexión a SQL Server exitosa.")
+        return engine
+    except Exception as e:
+        print(f"Error conectando a SQL Server: {e}")
+        return None
 
-# Dividir cada fila por el delimitador
-rows = [row['WA'].split('|') for row in data]
+# Función para guardar el DataFrame en SQL Server
+def save_to_sql(df, table_name, engine):
+    try:
+        df.to_sql(table_name, con=engine, if_exists='replace', index=False)
+        print(f"Datos guardados exitosamente en la tabla {table_name}")
+    except Exception as e:
+        print(f"Error guardando datos en la tabla {table_name}: {e}")
 
-# Asegurarse de que cada fila tenga el número correcto de columnas
-rows = [row for row in rows if len(row) == len(fields)]
+def main():
+    # Conectar a SAP
+    sap_conn = sap_connect()
+    if not sap_conn:
+        return
 
-# Crear un DataFrame con los resultados
-df = pd.DataFrame(rows, columns=fields)
+    # Campos a leer de la tabla T161T
+    fields = ['MANDT', 'SPRAS', 'BSART', 'BSTYP', 'BATXT']
 
-# Configuración de la conexión a SQL Server
-database_config = {
-    'user': 'sa',
-    'password': 'Invertek23',
-    'server': '192.168.1.12',
-    'database': 'tablas_sap'
-}
+    # Leer datos de la tabla SAP T161T
+    df = read_sap_table(sap_conn, 'T161T', fields)
+    if df is None:
+        return
 
-conn_str = (f"mssql+pyodbc://{database_config['user']}:{database_config['password']}@"
-            f"{database_config['server']}/{database_config['database']}?driver=ODBC+Driver+18+for+SQL+Server&TrustServerCertificate=yes")
+    # Conectar a SQL Server
+    engine = sql_server_connect()
+    if not engine:
+        return
 
-# Crear la conexión a la base de datos
-engine = create_engine(conn_str)
+    # Guardar los datos en SQL Server
+    save_to_sql(df, 'T161T_Data', engine)
 
-# Guardar el DataFrame en la base de datos
-df.to_sql('T161T_Data', con=engine, if_exists='replace', index=False)
+    # Cerrar la conexión a SAP
+    sap_conn.close()
+    print("Conexión a SAP cerrada.")
 
-# Cerrar la conexión de SAP
-sap_conn.close()
+if __name__ == '__main__':
+    main()

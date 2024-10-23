@@ -1,0 +1,42 @@
+EKKO-EKPO
+
+SELECT [EKKO_Data].EBELN
+,[EKPO_Data].EBELP
+      ,[EKKO_Data].[AEDAT]
+      ,[EKKO_Data].[ZBD1T]
+      ,[EKKO_Data].[RLWRT]
+  FROM [tablas_sap].[dbo].[EKKO_Data]
+
+  INNER JOIN 
+  [tablas_sap].[dbo].[EKPO_Data]
+  ON [EKKO_Data].EBELN = [EKPO_Data].EBELN 
+
+WHERE [EKKO_Data].LIFNR = '0020000335' 
+ORDER BY ebeln
+
+
+RSEG-RBKP
+
+use tablas_sap;
+
+SELECT TOP (1000)
+    --rseg_data.[BELNR] AS RSEG_BELNR,  -- Número de documento de factura en RSEG
+    rseg_data.[EBELN],         -- Número de orden de compra
+	rbkp_data.[XBLNR],         -- Referencia de la factura
+    rseg_data.[EBELP],         -- Posición de la orden
+    rseg_data.[MATNR],         -- Número de material
+    rseg_data.[MENGE],         -- Cantidad facturada
+    rseg_data.[WERKS],         -- Centro
+    rbkp_data.[GJAHR],         -- Año fiscal
+    rbkp_data.[BUDAT],         -- Fecha de contabilización
+    rbkp_data.[WAERS]         -- Moneda
+FROM 
+    [tablas_sap].[dbo].[RSEG_Data] rseg_data
+INNER JOIN 
+    [tablas_sap].[dbo].[RBKP_Data] rbkp_data 
+    ON rseg_data.[BELNR] = rbkp_data.[BELNR]  -- Unión por el número de factura
+WHERE 
+    rbkp_data.[WAERS] = 'CLP' and rbkp_data.LIFNR = '0020000335'  -- Filtro opcional (por ejemplo, facturas en USD)
+ORDER BY 
+    rbkp_data.[BLDAT] DESC;    -- Ordenar por fecha de documento
+

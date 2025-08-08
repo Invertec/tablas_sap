@@ -40,3 +40,38 @@ WHERE
 ORDER BY 
     rbkp_data.[BLDAT] DESC;    -- Ordenar por fecha de documento
 
+
+
+
+// ,
+        // "VA25": [
+        //     "MANDT","VBELN","ERDAT","ERZET","ERNAM","AUART","AEDAT", "VKORG","VTWEG","SPART","KUNNR","NETWR","WAERK","FKSTO","FKDAT","LIFSK","FAKSK","BSTNK","BSTDK","VSBED","KNUMV","VKGRP","VKBUR","GSBER","KOSTL","ZUONR","IHREZ","XBLNR","ANGDT", "BNDDT","AUDAT",
+        // "VBTYP",
+        // "TRVOG",
+        // "AUGRU",
+        // "STAFO",
+        // "KNUMA",
+        // "PS_PSP_PNR",
+        // "KURST",
+        // "KNKLI",
+        // "GRUPP",
+        // "SBGRP",
+        // "BNAME",
+        // "TELF1",
+        // "BSARK",
+        // "BSTZD",
+        // "VGTYP",
+        // "KALSM",
+        // "AGRZR",
+        // "QMNUM",
+        // "VBELN_GRP",
+        // "SCHEME_GRP",
+        // "RPLNR",
+        // "VZEIT",
+        // "STCEG_L",
+        // "LANDTX"
+        // ]
+
+
+
+//"", "", "", "LFREL", "FKREL", "UEPOS", "GRPOS", "ABGRU", "PRODH", "ZWERT", "ZMENG", "ZIEME", "UMZIZ", "UMZIN", "MEINS", "SMENG", "ABLFZ", "ABDAT", "ABSFZ", "POSEX", "KDMAT", "KBVER", "KEVER", "VKGRU", "VKAUS", "GRKOR", "FMENG", "UEBTK", "UEBTO", "UNTTO", "FAKSP", "ATPKZ", "RKFKF", "SPART", "GSBER", "NETWR", "WAERK", "ANTLF", "KZTLF", "CHSPL", "KWMENG", "LSMENG", "KBMENG", "KLMENG", "VRKME", "UMVKZ", "UMVKN", "BRGEW", "NTGEW", "GEWEI", "VOLUM", "VOLEH", "VBELV", "POSNV", "VGBEL", "VGPOS", "VOREF", "UPFLU", "ERLRE", "LPRIO", "WERKS", "LGORT", "VSTEL", "ROUTE", "STKEY", "STDAT", "STLNR", "STPOS", "AWAHR", "ERDAT", "ERNAM", "ERZET", "TAXM1", "TAXM2", "TAXM3", "TAXM4", "TAXM5", "TAXM6", "TAXM7", "TAXM8", "TAXM9", "VBEAF", "VBEAV", "VGREF", "NETPR", "KPEIN", "KMEIN", "SHKZG", "SKTOF", "MTVFP", "SUMBD", "KONDM"

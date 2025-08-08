@@ -1,5 +1,5 @@
 
-**** Log file opened at 2024-09-30 11:09:15.057313 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+**** Log file opened at 2025-08-01 14:39:55.602126 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
 NW RFC Library: SDK variant, Release 750 Patch Level 14
 Compilation date          : Jun 15 2024 06:07:33
 CPIC library              : 754.2024.02.29 version 3
@@ -7,50 +7,20 @@ NI library                : 40
 Kernel Release            : 754 Patch Level 325
 Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
 Program                   : python
-Process ID                : 16916
+Process ID                : 19704
 User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
 Binary Type               : 64bit
 Operating_system          : Windows NT 10.0
 Hostname                  : WCORREA
-IP address                : 192.168.2.33
-IPv6 address              : fe80::73ec:57b:b6c3:ccc8
+IP address                : 192.168.2.69
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
 Global trace level        : 0
 
-2024-09-30 11:09:15.057944 [11340] >> Info entry
+2025-08-01 14:39:55.603219 [04796] >> Info entry
 	Did not find config file C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap\sapnwrfc.ini.
-2024-09-30 11:09:15.646366 [11340] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C25C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D314E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D389564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FF91D3892D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FF91D3889F4: python312.dll!PyRun_AnyFileObject()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D801C: python312.dll!Py_Main()
-	0x7FF91D2D801C: python.exe!Py_Main()
-	0x7FF970812560: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FF97194AF00: ntdll.dll!RtlUserThreadStart()
 
-
-**** Log file opened at 2024-09-30 11:09:50.804101 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+**** Log file opened at 2025-08-04 09:10:38.587481 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
 NW RFC Library: SDK variant, Release 750 Patch Level 14
 Compilation date          : Jun 15 2024 06:07:33
 CPIC library              : 754.2024.02.29 version 3
@@ -58,48 +28,48 @@ NI library                : 40
 Kernel Release            : 754 Patch Level 325
 Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
 Program                   : python
-Process ID                : 01940
+Process ID                : 04656
 User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
 Binary Type               : 64bit
 Operating_system          : Windows NT 10.0
 Hostname                  : WCORREA
-IP address                : 192.168.2.33
-IPv6 address              : fe80::73ec:57b:b6c3:ccc8
+IP address                : 192.168.2.77
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
 Global trace level        : 0
 
-2024-09-30 11:09:50.801947 [19848] >> Info entry
+2025-08-04 09:10:38.585915 [06416] >> Info entry
 	throwRfcErrorMsg called at:
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C25C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D314E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D389564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FF91D3892D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FF91D3889F4: python312.dll!PyRun_AnyFileObject()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D801C: python312.dll!Py_Main()
-	0x7FF91D2D801C: python.exe!Py_Main()
-	0x7FF970812560: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FF97194AF00: ntdll.dll!RtlUserThreadStart()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB89693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFAB892C1E0: sapnwrfc.dll!RfcInvoke()
+	0x7FFAB892C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFAB892C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFAB948E4A4: python38.dll!Py_FatalError()
+	0x7FFAB9388BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFAB938A980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFAB93867C0: python38.dll!PyEval_EvalCodeWithName()
+	0x7FFAB939B6A4: python38.dll!PyEval_EvalCodeEx()
+	0x7FFAB939B670: python38.dll!PyEval_EvalCode()
+	0x7FFAB9399E74: python38.dll!PyArena_New()
+	0x7FFAB9399E74: python38.dll!PyArena_New()
+	0x7FFAB946A18C: python38.dll!PyRun_FileExFlags()
+	0x7FFAB9469608: python38.dll!PyRun_SimpleFileExFlags()
+	0x7FFAB9530D84: python38.dll!PyRun_AnyFileExFlags()
+	0x7FFAB948E4A4: python38.dll!Py_FatalError()
+	0x7FFAB93F6524: python38.dll!Py_RunMain()
+	0x7FFAB93F6524: python38.dll!Py_RunMain()
+	0x7FFAB93F61E4: python38.dll!Py_Main()
+	0x7FFAB93F61E4: python.exe!Py_Main()
+	0x7FFB97A2E8C0: KERNEL32.DLL!BaseThreadInitThunk()
+	0x7FFB99ABC320: ntdll.dll!RtlUserThreadStart()
 
 
-**** Log file opened at 2024-09-30 11:10:33.544274 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+**** Log file opened at 2025-08-04 10:02:46.161760 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
 NW RFC Library: SDK variant, Release 750 Patch Level 14
 Compilation date          : Jun 15 2024 06:07:33
 CPIC library              : 754.2024.02.29 version 3
@@ -107,48 +77,52 @@ NI library                : 40
 Kernel Release            : 754 Patch Level 325
 Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
 Program                   : python
-Process ID                : 09140
+Process ID                : 24860
 User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
 Binary Type               : 64bit
 Operating_system          : Windows NT 10.0
 Hostname                  : WCORREA
-IP address                : 192.168.2.33
-IPv6 address              : fe80::73ec:57b:b6c3:ccc8
+IP address                : 192.168.2.77
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
 Global trace level        : 0
 
-2024-09-30 11:10:33.543153 [15996] >> Info entry
+2025-08-04 10:02:46.156202 [16216] >> Info entry
 	throwRfcErrorMsg called at:
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C2993D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FF91C25C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91C25C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D3141D0: python312.dll!PyObject_Vectorcall()
-	0x7FF91D314E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D370ECC: python312.dll!PyEval_EvalCode()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D38B890: python312.dll!Py_SourceAsString()
-	0x7FF91D389564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FF91D3892D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FF91D3889F4: python312.dll!PyRun_AnyFileObject()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D387D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D7B24: python312.dll!Py_RunMain()
-	0x7FF91D2D801C: python312.dll!Py_Main()
-	0x7FF91D2D801C: python.exe!Py_Main()
-	0x7FF970812560: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FF97194AF00: ntdll.dll!RtlUserThreadStart()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB2C1E0: sapnwrfc.dll!RfcInvoke()
+	0x7FFADCB2C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFADCB2C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFADDFAE4A4: python38.dll!Py_FatalError()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA67C0: python38.dll!PyEval_EvalCodeWithName()
+	0x7FFADDEBB6A4: python38.dll!PyEval_EvalCodeEx()
+	0x7FFADDEBB670: python38.dll!PyEval_EvalCode()
+	0x7FFADDEB9E74: python38.dll!PyArena_New()
+	0x7FFADDEB9E74: python38.dll!PyArena_New()
+	0x7FFADDF8A18C: python38.dll!PyRun_FileExFlags()
+	0x7FFADDF89608: python38.dll!PyRun_SimpleFileExFlags()
+	0x7FFADE050D84: python38.dll!PyRun_AnyFileExFlags()
+	0x7FFADDFAE4A4: python38.dll!Py_FatalError()
+	0x7FFADDF16524: python38.dll!Py_RunMain()
+	0x7FFADDF16524: python38.dll!Py_RunMain()
+	0x7FFADDF161E4: python38.dll!Py_Main()
+	0x7FFADDF161E4: python.exe!Py_Main()
+	0x7FFB97A2E8C0: KERNEL32.DLL!BaseThreadInitThunk()
+	0x7FFB99ABC320: ntdll.dll!RtlUserThreadStart()
 
 
-**** Log file opened at 2024-10-03 13:20:26.176065 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+**** Log file opened at 2025-08-04 10:06:17.902197 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
 NW RFC Library: SDK variant, Release 750 Patch Level 14
 Compilation date          : Jun 15 2024 06:07:33
 CPIC library              : 754.2024.02.29 version 3
@@ -156,533 +130,156 @@ NI library                : 40
 Kernel Release            : 754 Patch Level 325
 Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
 Program                   : python
-Process ID                : 22068
+Process ID                : 21512
 User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
 Binary Type               : 64bit
 Operating_system          : Windows NT 10.0
 Hostname                  : WCORREA
-IP address                : 192.168.2.4
+IP address                : 192.168.2.77
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
+Global trace level        : 0
+
+2025-08-04 10:06:17.901077 [17500] >> Info entry
+	throwRfcErrorMsg called at:
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB693D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
+	0x7FFADCB2C1E0: sapnwrfc.dll!RfcInvoke()
+	0x7FFADCB2C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFADCB2C1E0: _cyrfc.cp38-win_amd64.pyd!RfcInvoke()
+	0x7FFADDFAE4A4: python38.dll!Py_FatalError()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA8BE0: python38.dll!Py_CheckFunctionResult()
+	0x7FFADDEAA980: python38.dll!PyEval_EvalFrameDefault()
+	0x7FFADDEA67C0: python38.dll!PyEval_EvalCodeWithName()
+	0x7FFADDEBB6A4: python38.dll!PyEval_EvalCodeEx()
+	0x7FFADDEBB670: python38.dll!PyEval_EvalCode()
+	0x7FFADDEB9E74: python38.dll!PyArena_New()
+	0x7FFADDEB9E74: python38.dll!PyArena_New()
+	0x7FFADDF8A18C: python38.dll!PyRun_FileExFlags()
+	0x7FFADDF89608: python38.dll!PyRun_SimpleFileExFlags()
+	0x7FFADE050D84: python38.dll!PyRun_AnyFileExFlags()
+	0x7FFADDFAE4A4: python38.dll!Py_FatalError()
+	0x7FFADDF16524: python38.dll!Py_RunMain()
+	0x7FFADDF16524: python38.dll!Py_RunMain()
+	0x7FFADDF161E4: python38.dll!Py_Main()
+	0x7FFADDF161E4: python.exe!Py_Main()
+	0x7FFB97A2E8C0: KERNEL32.DLL!BaseThreadInitThunk()
+	0x7FFB99ABC320: ntdll.dll!RtlUserThreadStart()
+
+
+**** Log file opened at 2025-08-05 20:09:27.011025 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 15 2024 06:07:33
+CPIC library              : 754.2024.02.29 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 325
+Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
+Program                   : python
+Process ID                : 23728
+User                      : wcorrea
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : WCORREA
+IP address                : 192.168.1.152
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
+Global trace level        : 0
+
+2025-08-05 20:09:27.008134 [23856] >> Error entry
+	[Handle: 1212318497696	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.0.6:3300' not reached
+TIME        Tue Aug  5 20:09:26 2025
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/754_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 192.168.0.6:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+
+**** Log file opened at 2025-08-05 20:27:52.691363 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 15 2024 06:07:33
+CPIC library              : 754.2024.02.29 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 325
+Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
+Program                   : python
+Process ID                : 15492
+User                      : wcorrea
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : WCORREA
+IP address                : 192.168.1.152
 IPv6 address              : fe80::d465:7bf5:dd16:b61d
 Global trace level        : 0
 
-2024-10-03 13:20:26.174247 [03528] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE076C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFBE076C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBE076C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBE57341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBE57341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBE5734E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFBE5790ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBE5790ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBE57AB890: python312.dll!Py_SourceAsString()
-	0x7FFBE57AB890: python312.dll!Py_SourceAsString()
-	0x7FFBE57A9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFBE57A92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFBE57A89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFBE57A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBE57A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBE56F7B24: python312.dll!Py_RunMain()
-	0x7FFBE56F7B24: python312.dll!Py_RunMain()
-	0x7FFBE56F801C: python312.dll!Py_Main()
-	0x7FFBE56F801C: python.exe!Py_Main()
-	0x7FFC3747DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC39205A40: ntdll.dll!RtlUserThreadStart()
+2025-08-05 20:27:52.591383 [12448] >> Error entry
+	Error in receive: 20, data rec 0, status rec 0, read 0, 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '192.168.0.6:3300' broken
+TIME        Tue Aug  5 20:27:52 2025
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      D:/depot/bas/754_REL/src/base/ni/nixxi.cpp
+LINE        5469
+DETAIL      NiIRead: P=192.168.0.6:3300; L=10.212.134.3:50093
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
 
+2025-08-05 20:27:52.712044 [12448] >> Error entry
+	[Handle: 1454827864112	ConvID: 60399867	Target: s4hanaifprd.invertec.cl	SysID: IFP	SysNr: 00	User: ETL_INVERTEC	Client: 300	Language: S	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       connection to partner '192.168.0.6:3300' broken
+TIME        Tue Aug  5 20:27:52 2025
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -6
+MODULE      D:/depot/bas/754_REL/src/base/ni/nixxi.cpp
+LINE        5469
+DETAIL      NiIRead: P=192.168.0.6:3300; L=10.212.134.3:50093
+SYSTEM CALL recv
+ERRNO       10054
+ERRNO TEXT  WSAECONNRESET: Connection reset by peer
+COUNTER     5
 
-**** Log file opened at 2024-10-03 13:21:35.810902 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 22124
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.4
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-03 13:21:35.809354 [24248] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE07A93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBE076C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFBE076C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBE076C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBE57341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBE57341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBE5734E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFBE5790ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBE5790ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBE57AB890: python312.dll!Py_SourceAsString()
-	0x7FFBE57AB890: python312.dll!Py_SourceAsString()
-	0x7FFBE57A9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFBE57A92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFBE57A89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFBE57A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBE57A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBE56F7B24: python312.dll!Py_RunMain()
-	0x7FFBE56F7B24: python312.dll!Py_RunMain()
-	0x7FFBE56F801C: python312.dll!Py_Main()
-	0x7FFBE56F801C: python.exe!Py_Main()
-	0x7FFC3747DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC39205A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-04 11:47:14.127800 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 20028
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.23
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-04 11:47:14.126547 [11456] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC177EC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE64E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BED9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFC1BED92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFC1BED89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE2801C: python312.dll!Py_Main()
-	0x7FFC1BE2801C: python.exe!Py_Main()
-	0x7FFC8E08DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC8F485A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-04 11:47:26.181627 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 13816
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.23
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-04 11:47:26.180248 [21352] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC177EC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE64E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BED9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFC1BED92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFC1BED89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE2801C: python312.dll!Py_Main()
-	0x7FFC1BE2801C: python.exe!Py_Main()
-	0x7FFC8E08DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC8F485A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-04 11:48:28.992930 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 20892
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.23
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-04 11:48:28.991698 [11856] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC177EC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE64E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BED9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFC1BED92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFC1BED89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE2801C: python312.dll!Py_Main()
-	0x7FFC1BE2801C: python.exe!Py_Main()
-	0x7FFC8E08DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC8F485A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-04 11:49:22.467558 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 11816
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.23
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-04 11:49:22.466371 [17980] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC178293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFC177EC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC177EC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFC1BE64E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BEDB890: python312.dll!Py_SourceAsString()
-	0x7FFC1BED9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFC1BED92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFC1BED89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BED7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE27B24: python312.dll!Py_RunMain()
-	0x7FFC1BE2801C: python312.dll!Py_Main()
-	0x7FFC1BE2801C: python.exe!Py_Main()
-	0x7FFC8E08DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC8F485A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-04 12:39:31.943216 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 20308
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.23
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-04 12:39:31.941664 [23748] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF90293D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFBF8FEC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFBF8FEC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBF8FEC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFBF9A641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBF9A641D0: python312.dll!PyObject_Vectorcall()
-	0x7FFBF9A64E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFBF9AC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBF9AC0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFBF9ADB890: python312.dll!Py_SourceAsString()
-	0x7FFBF9ADB890: python312.dll!Py_SourceAsString()
-	0x7FFBF9AD9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFBF9AD92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFBF9AD89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFBF9AD7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBF9AD7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFBF9A27B24: python312.dll!Py_RunMain()
-	0x7FFBF9A27B24: python312.dll!Py_RunMain()
-	0x7FFBF9A2801C: python312.dll!Py_Main()
-	0x7FFBF9A2801C: python.exe!Py_Main()
-	0x7FFC8E08DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFC8F485A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-18 12:36:05.597691 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 26756
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.48
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-18 12:36:05.594623 [01640] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F3FC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFA9F3FC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9F3FC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9FE741D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9FE741D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9FE74E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFA9FED0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9FED0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9FEEB890: python312.dll!Py_SourceAsString()
-	0x7FFA9FEEB890: python312.dll!Py_SourceAsString()
-	0x7FFA9FEE9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFA9FEE92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFA9FEE89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFA9FEE7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9FEE7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9FE37B24: python312.dll!Py_RunMain()
-	0x7FFA9FE37B24: python312.dll!Py_RunMain()
-	0x7FFA9FE3801C: python312.dll!Py_Main()
-	0x7FFA9FE3801C: python.exe!Py_Main()
-	0x7FFB527FDBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFB53845A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-18 12:37:09.841595 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 02448
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.48
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-18 12:37:09.839714 [15220] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F4393D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9F3FC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFA9F3FC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9F3FC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9FE741D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9FE741D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9FE74E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFA9FED0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9FED0ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9FEEB890: python312.dll!Py_SourceAsString()
-	0x7FFA9FEEB890: python312.dll!Py_SourceAsString()
-	0x7FFA9FEE9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFA9FEE92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFA9FEE89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFA9FEE7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9FEE7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9FE37B24: python312.dll!Py_RunMain()
-	0x7FFA9FE37B24: python312.dll!Py_RunMain()
-	0x7FFA9FE3801C: python312.dll!Py_Main()
-	0x7FFA9FE3801C: python.exe!Py_Main()
-	0x7FFB527FDBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFB53845A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-18 12:39:17.208065 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 21536
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.48
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-18 12:39:17.205062 [04840] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E3893D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFA9E34C1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFA9E34C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9E34C1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFA9EDC41D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9EDC41D0: python312.dll!PyObject_Vectorcall()
-	0x7FFA9EDC4E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFA9EE20ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9EE20ECC: python312.dll!PyEval_EvalCode()
-	0x7FFA9EE3B890: python312.dll!Py_SourceAsString()
-	0x7FFA9EE3B890: python312.dll!Py_SourceAsString()
-	0x7FFA9EE39564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFA9EE392D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFA9EE389F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFA9EE37D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9EE37D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFA9ED87B24: python312.dll!Py_RunMain()
-	0x7FFA9ED87B24: python312.dll!Py_RunMain()
-	0x7FFA9ED8801C: python312.dll!Py_Main()
-	0x7FFA9ED8801C: python.exe!Py_Main()
-	0x7FFB527FDBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFB53845A40: ntdll.dll!RtlUserThreadStart()
-
-
-**** Log file opened at 2024-10-22 14:05:24.899502 UTC-03:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
-NW RFC Library: SDK variant, Release 750 Patch Level 14
-Compilation date          : Jun 15 2024 06:07:33
-CPIC library              : 754.2024.02.29 version 3
-NI library                : 40
-Kernel Release            : 754 Patch Level 325
-Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
-Program                   : python
-Process ID                : 16728
-User                      : wcorrea
-Hardware                  : PC with Windows NT 8x AMD64 Level 6 (Mod 126 Step 5)
-Binary Type               : 64bit
-Operating_system          : Windows NT 10.0
-Hostname                  : WCORREA
-IP address                : 192.168.2.66
-IPv6 address              : fe80::d465:7bf5:dd16:b61d
-Global trace level        : 0
-
-2024-10-22 14:05:24.897176 [04704] >> Info entry
-	throwRfcErrorMsg called at:
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BF93D0: sapnwrfc.dll!RfcSetAbapObjectByIndex()
-	0x7FFED3BBC1E0: sapnwrfc.dll!RfcInvoke()
-	0x7FFED3BBC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFED3BBC1E0: _cyrfc.cp312-win_amd64.pyd!RfcInvoke()
-	0x7FFED46341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFED46341D0: python312.dll!PyObject_Vectorcall()
-	0x7FFED4634E30: python312.dll!PyEval_EvalFrameDefault()
-	0x7FFED4690ECC: python312.dll!PyEval_EvalCode()
-	0x7FFED4690ECC: python312.dll!PyEval_EvalCode()
-	0x7FFED46AB890: python312.dll!Py_SourceAsString()
-	0x7FFED46AB890: python312.dll!Py_SourceAsString()
-	0x7FFED46A9564: python312.dll!PyImport_FixupExtensionObject()
-	0x7FFED46A92D0: python312.dll!PyRun_SimpleFileObject()
-	0x7FFED46A89F4: python312.dll!PyRun_AnyFileObject()
-	0x7FFED46A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFED46A7D44: python312.dll!Py_open_osfhandle_noraise()
-	0x7FFED45F7B24: python312.dll!Py_RunMain()
-	0x7FFED45F7B24: python312.dll!Py_RunMain()
-	0x7FFED45F801C: python312.dll!Py_Main()
-	0x7FFED45F801C: python.exe!Py_Main()
-	0x7FFFA930DBD0: KERNEL32.DLL!BaseThreadInitThunk()
-	0x7FFFA95E5A40: ntdll.dll!RtlUserThreadStart()
+2025-08-05 20:28:13.748767 [12448] >> Error entry
+	[Handle: 1454827864112	ConvID: 	Target: 	SysID: 	SysNr: 	User: 	Codepage: 4103]
+	RfcCommunicationException: Return Value: 20, Code: RFC_COMMUNICATION_FAILURE, Message: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.0.6:3300' not reached
+TIME        Tue Aug  5 20:28:13 2025
+RELEASE     754
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      D:/depot/bas/754_REL/src/base/ni/nixxi.cpp
+LINE        3458
+DETAIL      NiPConnect2: 192.168.0.6:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     7
 

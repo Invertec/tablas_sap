@@ -1,28 +1,38 @@
 from pyrfc import Connection
 
-# Conexión a SAP
+# Parámetros de conexión a SAP
 sap_conn_params = {
-    'ashost': '192.168.0.6',
+    'ashost': '192.168.0.9',
     'sysnr': '00',
     'client': '300',
-    'user': 'ETL_SAP',
-    'passwd': 'Etl_2020'
+    'user': 'ETL_INVERTEC',
+    'passwd': 'Invertec.24$'
 }
 
 try:
+    # Conexión
     conn = Connection(**sap_conn_params)
-    print('Conexión exitosa')
+    print('✅ Conexión exitosa')
 
-    # Obtener la información de los campos de la tabla RSEG
-    result = conn.call('DDIF_FIELDINFO_GET', TABNAME='EKPO')
+    # Nombres de campos (cabecera de columnas)
+    metadata = conn.call('DDIF_FIELDINFO_GET', TABNAME='AUFK')
+    fields = [field['FIELDNAME'] for field in metadata['DFIES_TAB']]
+    print(f"📋 Campos en AUFK ({len(fields)}):\n", fields)
 
-    # Imprimir la lista de campos válidos
-    fields = [field['FIELDNAME'] for field in result['DFIES_TAB']]
-    print("Campos válidos en EKPO:")
-    print(fields)
+    # Leer datos con RFC_READ_TABLE
+    result = conn.call('RFC_READ_TABLE',
+                       QUERY_TABLE='AUFK',
+                       DELIMITER='|',
+                       ROWCOUNT=10)  # puedes cambiar ROWCOUNT por más registros
+
+    # Procesar resultados
+    rows = result['DATA']
+    print("\n📦 Datos obtenidos:")
+    for row in rows:
+        print(row['WA'])
 
 except Exception as e:
-    print('Error de conexión', e)
+    print('❌ Error:', e)
 
 finally:
     conn.close()

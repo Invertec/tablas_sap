@@ -13,11 +13,14 @@ from extract_data_from_VBAK        import fetch_VBAK_data
 from extract_data_from_VBAP        import fetch_VBAP_data
 from extract_data_from_MBEW        import fetch_MBEW_data
 from extract_data_from_MARA        import fetch_MARA_data
+from extract_data_from_MARD        import fetch_MARD_data
+from extract_data_from_T001L       import fetch_T001L_data
 from extract_data_from_ZCOMERCIAL1 import fetch_ZCOMERCIAL1_data;
 
 
 def main():
-    ekko = fetch_EKKO_data()
+    #t001l = fetch_T001L_data()
+    #ekko = fetch_EKKO_data()
     #ekpo = fetch_EKPO_data()
     #lfa1= fetch_LFA1_data()
     #rbkp = fetch_RBKP_data()
@@ -33,6 +36,7 @@ def main():
     #mara = fetch_MARA_data()
     #makt = fetch_MAKT_data()
     #zcomercial1 = fetch_ZCOMERCIAL1_data()
+    #mard = fetch_MARD_data()
 
 
 

@@ -1,0 +1,21 @@
+
+**** Log file opened at 2025-08-08 12:10:13.749432 UTC-04:00 (Hora verano Sudamérica Pacífico), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 14
+Compilation date          : Jun 15 2024 06:07:33
+CPIC library              : 754.2024.02.29 version 3
+NI library                : 40
+Kernel Release            : 754 Patch Level 325
+Current working directory : C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap
+Program                   : python
+Process ID                : 07964
+User                      : wcorrea
+Hardware                  : PC with Windows NT 12x AMD64 Level 6 (Mod 154 Step 4)
+Binary Type               : 64bit
+Operating_system          : Windows NT 10.0
+Hostname                  : WCORREA
+IP address                : 192.168.2.81
+IPv6 address              : fe80::ffb4:c3ab:ffc8:8b05
+Global trace level        : 0
+
+2025-08-08 12:10:13.751424 [29052] >> Info entry
+	Did not find config file C:\Proyectos Desarrollo-Invertec\Invertec-Python\rfc_sap\sapnwrfc.ini.

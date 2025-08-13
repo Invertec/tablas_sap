@@ -40,6 +40,3 @@ def fetch_MARD_data():
     save_to_database(df, 'MARD_Data')
 
     return df
-
-# Ejecutar la función
-fetch_MARD_data()

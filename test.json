@@ -1,0 +1,130 @@
+{
+    "sap": {
+        "user": "",
+        "password": "",
+        "ashost": "",
+        "sysnr": "",
+        "client": ""
+    },
+    "database": {
+        "user": "",
+        "password": "",
+        "server": "",
+        "database": ""
+    },
+    "fields": {
+        "EKKO": [
+              "EBELN", "BUKRS", "BSTYP", "BSART", "STATU", "AEDAT", "ERNAM", 
+              "LASTCHANGEDATETIME", "PINCR", "LPONR", "LIFNR", "SPRAS", "ZTERM", 
+              "ZBD1T", "ZBD2T", "ZBD3T", "ZBD1P", "ZBD2P", "EKORG", "EKGRP", 
+              "WAERS", "WKURS", "BEDAT", "RLWRT"
+        ],
+        "RBKP": [
+            "BELNR", "GJAHR", "BLART", "BLDAT", "BUDAT", "USNAM", "TCODE", 
+            "CPUDT", "CPUTM", "VGART", "XBLNR", "BUKRS", "LIFNR", "WAERS", 
+            "KURSF", "RMWWR", "BEZNK", "WMWST1", "MWSKZ1", "ZBD1T", "ZBD1P", 
+            "BKTXT", "SAPRL", "LOGSYS", "ERFNAM", "WWERT", "SGTXT"
+        ],
+        "EKPO":[
+            "EBELN", "EBELP", "UNIQUEID", "AEDAT", "TXZ01", "MATNR", "EMATN", 
+            "BUKRS", "WERKS", "MATKL", "KTMNG", "MENGE", "BPUMZ", "BPUMN", 
+            "UMREZ", "UMREN", "NETPR", "PEINH", "NETWR", "BRTWR", "PRDAT", 
+            "EFFWR", "MEINS", "BPRME"
+        ],
+        "LFA1": [
+            "LIFNR", "LAND1", "NAME1", "NAME2", "NAME3", "NAME4", "ORT01", 
+            "ORT02", "PFACH", "PSTLZ", "REGIO", "STCD1", "STRAS", "ADRNR", 
+            "MCOD1", "MCOD2", "MCOD3", "ANRED", "ERDAT", "ERNAM", "SORTL"
+        ],
+        "MAKT": [
+            "MANDT", "MATNR", "SPRAS", "MAKTX", "MAKTG"
+        ],
+        "RSEG": ["BELNR", "GJAHR", "BUZEI", "EBELN", "EBELP", "MATNR", "BWKEY", "BUKRS", 
+        "WERKS", "WRBTR", "SHKZG", "MWSKZ", "MENGE", "BSTME", "BPMNG", "BPRME", 
+        "LBKUM", "MEINS", "VRKUM", "PSTYP", "KNTTP", "BKLAS", "EXKBE", "BUSTW", 
+        "XBLNR", "SALK3", "LFBNR", "LFPOS", "MATBF", "SGTXT"
+        ],
+        "T003T":
+            ["BLART", "LTEXT"
+        ],
+        "T161T":[
+            "MANDT", "SPRAS", "BSART", "BSTYP", "BATXT"
+        ],
+        "MCHB":[
+            "MANDT", "MATNR", "WERKS", "LGORT", "CHARG", "LVORM",
+            "ERSDA", "ERNAM", "LAEDA", "AENAM", "LFGJA", "LFMON", 
+            "SPERC", "CLABS", "CUMLM", "CINSM", "CEINM", "CSPEM",
+            "CRETM", "CVMLA", "CVMUM", "CVMIN", "CVMEI", "CVMSP",
+            "CVMRE", "KZICL", "KZICQ", "KZICE", "KZICS", "KZVCL",
+            "KZVCQ", "KZVCE", "KZVCS", "HERKL", "CHDLL", "CHJIN",
+            "CHRUE", "SGT_SCAT", "FSH_SEASON_YEAR", "FSH_SEASON",
+            "FSH_COLLECTION", "FSH_THEME", "FSH_SALLOC_QTY",
+            "/CWM/CLABS", "/CWM/CINSM", "/CWM/CEINM", "/CWM/CSPEM",
+            "/CWM/CRETM", "/CWM/CUMLM", "/CWM/CVMLA", "/CWM/CVMIN",
+            "/CWM/CVMEI", "/CWM/CVMSP", "/CWM/CVMRE", "/CWM/CVMUM"
+        ],
+        "MSEG": [ "AUFNR","MJAHR", "ZEILE", "BWART", "MATNR", "WERKS",
+         "LGORT", "MENGE", "MEINS","CHARG", "BUDAT_MKPF", "MBLNR"]
+        ,
+        "T001W" :[
+            "MANDT", "WERKS", "NAME1", "BWKEY", "KUNNR", "LIFNR",
+             "FABKL", "NAME2", "STRAS", "PFACH", "PSTLZ", "ORT01", 
+             "EKORG", "VKORG", "CHAZV", "KKOWK", "KORDB", "BEDPL", 
+             "LAND1", "REGIO", "COUNC", "CITYC", "ADRNR", "IWERK",
+             "TXJCD", "VTWEG", "SPART", "SPRAS", "WKSOP", "AWSLS",
+             "CHAZV_OLD", "VLFKZ", "BZIRK", "ZONE1", "TAXIW", "BZQHL",
+             "LET01", "LET02", "LET03", "TXNAM_MA1", "TXNAM_MA2", "TXNAM_MA3",
+             "BETOL", "J_1BBRANCH", "VTBFI", "FPRFW", "ACHVM", "DVSART", 
+             "NODETYPE", "NSCHEMA", "PKOSA", "MISCH", "MGVUPD", "VSTEL",
+             "MGVLAUPD", "MGVLAREVAL", "SOURCING", "NO_DEFAULT_BATCH_MANAGEMENT",
+             "FSH_MG_ARUN_REQ", "FSH_SEAIM", "FSH_BOM_MAINTENANCE", "FSH_GROUP_PR",
+             "ARUN_FIX_BATCH", "OILIVAL", "OIHVTYPE", "OIHCREDIPI", "STORETYPE", "DEP_STORE"
+        ]
+        ,
+        "T001L" : [
+            "MANDT", "WERKS", "LGORT", "LGOBE", "SPART", "XLONG", "XBUFX", "DISKZ", 
+            "XBLGO", "XRESS", "XHUPF", "PARLG", "VKORG", "VTWEG", "VSTEL", "LIFNR", 
+            "KUNNR", "MESBS", "MESST", "OIH_LICNO", "OIG_ITRFL", "OIB_TNKASSIGN"
+        ]
+        ,
+        "MARD": [
+            "MANDT", "MATNR", "WERKS", "LGORT", "PSTAT", "LVORM", "LFGJA", "LFMON", 
+            "SPERR", "LABST", "UMLME", "INSME", "EINME", "SPEME", "RETME", "VMLAB", 
+            "VMUML", "VMINS", "VMEIN", "VMSPE", "VMRET", "KZILL", "KZILQ", "KZILE", 
+            "KZILS", "KZVLL", "KZVLQ", "KZVLE", "KZVLS", "DISKZ", "LSOBS", "LMINB", 
+            "LBSTF", "HERKL", "EXPPG", "EXVER", "LGPBE", "KLABS", "KINSM", "KEINM", 
+            "KSPEM", "DLINL", "PRCTL", "ERSDA", "VKLAB", "VKUML", "LWMKB", "BSKRF", 
+            "MDRUE", "MDJIN", "DUMMY_STL_INCL_EEW_PS"
+        ],
+        "VBAK":[
+            
+            "MANDT", "VBELN", "ERDAT", "ERZET", "ERNAM", "ANGDT", "BNDDT", "AUDAT", "VBTYP", "TRVOG",
+            "AUART", "AUGRU", "NETWR", "WAERK", "VKORG", "VTWEG", "SPART", "VKGRP", "VKBUR", "GSBER",
+            "KUNNR", "KOSTL", "STAFO", "AEDAT", "KNUMA", "PS_PSP_PNR", "KURST", "KNKLI", "GRUPP", "SBGRP",
+            "BNAME", "TELF1", "BSTNK", "BSARK", "BSTDK", "BSTZD", "IHREZ", "XBLNR", "ZUONR", "VGTYP",
+            "KALSM", "AGRZR", "QMNUM", "VBELN_GRP", "SCHEME_GRP", "RPLNR", "VZEIT", "STCEG_L", "LANDTX"
+        ]
+        ,
+        "VBAP": [
+            "MANDT", "VBELN", "POSNR", "MATNR", "MATWA", "PMATN","CHARG","MATKL","ARKTX","PSTYV","POSAR"
+        ]
+        ,
+        "MARA": [
+            "MATNR","MTART","MATKL","XCHPF","MEINS"
+        ]
+        ,
+        "MBEW": [
+            "MATNR", "BWKEY", "LBKUM", "SALK3","VPRSV","STPRS","VERPR"
+        ],
+        "AUFK": [
+            "AUFNR", "AUART", "AUTYP","ERDAT","AEDAT","KTEXT","WERKS","WAERS","IDAT2","SCOPE"
+        ],
+        "ZCOMERCIAL1":[
+            "J_3GAGEXT", "KPEIN", "KZEAR", "LCCST", "SPE_BXP_DATE_EXT", "SPE_EXP_DATE_EXT", "STADAT", "AUART", "AUDAT", "BSTNK", "ERNAM", "ERZET", "GBSTK", "KUNNR", "NETWR", "RFSTK", "SPART", "VKORG", "VTWEG", "ERDAT", "GBSTA", "HANDOVERDATE", "MATNR", "MEINS", "NETPR", "PO_QUAN", "POSEX", "RFSTA", "SHKZG", "VBELN", "VRKME", "VSTEL", "WAERK", "WERKS", "ZMENG", "ETENR", "ETTYP", "KURSK", "PRSDT", "NETWR_VBAP", "KPEIN_VBAP"
+        ]
+    }
+
+}
+
+
+
